@@ -1,0 +1,57 @@
+<div class="create-container">
+    <div class="createRecipePage-container">
+      <div class="crContainer">
+        <div class="crForm-container">
+              <h2>Create your recipe!</h2>
+            <label for="rImage">Add recipe image:
+                <span>
+                    <input id="attachFile" type="text" value="Attach file"/>
+                </span>
+            </label>
+            <input id="rImage" type="text" name="rImage" />
+  
+            <label for="rName">Recipe name:</label>
+            <input id="rName" type="text" name="rName" />
+  
+            <label for="rDescption">Recipe description:</label>
+            <input id="rDescription" type="text" name="rDescription" />
+            <label for="rTime">Recipe total time:</label>
+            <input id="rtime" type="text" name="rTime" />
+            <label for="rServingSize">Recipe serving size:</label>
+            <input id="rServingSize" type="text" name="rServingSize" />
+
+              <p>Enter ingredients:</p>
+          <label for="ingredients">Ingredient #1:</label>
+          <input id="ingredients" type="text" name="ingredientOne" />
+
+          <label for="ingredients">Ingredient #2:</label>
+          <input id="ingredients" type="text" name="ingredientTwo" />
+
+          <label for="ingredients">Ingredient #3:
+               <span>
+                    <input id="addIngredient" type="submit" value="+"/>
+                </span>
+          </label>
+          <input id="ingredients" type="text" name="ingredientThree" />
+
+            <p>Enter instructions:</p>
+          <label for="instructions">Instruction #1:</label>
+          <input id="instructions" type="text" name="instructonOne" />
+
+          <label for="instructionTwo">Instruction #2:</label>
+          <input id="instructions" type="text" name="instructionTwo" />
+
+          <label for="email">Instruction #3:
+            <span>
+                <input id="addInstruction" type="submit" value="+"/>
+            </span>
+          </label>
+          <input id="instructions" type="text" name="instructionThree" />
+          <div class="sub-recipe">
+          <input id="submit-recipe" onclick="addNewRecipe()" type="submit" value="Create Recipe" />
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
